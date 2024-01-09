@@ -10,7 +10,7 @@
                SemanticProperties.HeadingLevel="Level1"
                SemanticProperties.Description="Trip Planner Checklist"
                HorizontalTextAlignment="Center"
-               Padding="15">
+               Margin="15">
         </Label>
         <Label Text="Swipe right on a item to check it off"
                TextColor="Black"
@@ -26,6 +26,21 @@
                SemanticProperties.Description="Swipe left on a item to delete it"
                HorizontalTextAlignment="Center">
         </Label>
+        <Button Text="Add item"
+                TextColor="Black"
+                BackgroundColor="Aqua"
+                SemanticProperties.Hint="Button that navigates to the add item page"
+                WidthRequest="100"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                Margin="15">
+            <Button.Shadow>
+                <Shadow Brush="Black"
+                    Offset="5,5"
+                    Radius="10"
+                    Opacity="0.5" />
+            </Button.Shadow>
+        </Button>
 
 
     </VerticalStackLayout>
