@@ -2,7 +2,33 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiTripPlanner.MainPage">
+    <VerticalStackLayout Background="LightYellow"
+                         Padding="15">
+        <Label Text="Trip Planner Checklist"
+               TextColor="Black"
+               FontSize="Title"
+               SemanticProperties.HeadingLevel="Level1"
+               SemanticProperties.Description="Trip Planner Checklist"
+               HorizontalTextAlignment="Center"
+               Padding="15">
+        </Label>
+        <Label Text="Swipe right on a item to check it off"
+               TextColor="Black"
+               FontSize="Subtitle"
+               SemanticProperties.HeadingLevel="Level2"
+               SemanticProperties.Description="Swipe right on a item to check it off"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="Swipe left on a item to delete it"
+               TextColor="Black"
+               FontSize="Subtitle"
+               SemanticProperties.HeadingLevel="Level2"
+               SemanticProperties.Description="Swipe left on a item to delete it"
+               HorizontalTextAlignment="Center">
+        </Label>
 
-    
+
+    </VerticalStackLayout>
+
 
 </ContentPage>
