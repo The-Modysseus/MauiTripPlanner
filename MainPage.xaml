@@ -26,6 +26,13 @@
                SemanticProperties.Description="Swipe left on a item to delete it"
                HorizontalTextAlignment="Center">
         </Label>
+        <Entry Placeholder="Enter name of item to add"
+               SemanticProperties.Hint="Name of the new checklist item"
+               WidthRequest="200"
+               TextColor="Black"
+               Text="{Binding NewChecklistItemName}">
+            
+        </Entry>
         <Button Text="Add item"
                 TextColor="Black"
                 BackgroundColor="Aqua"
